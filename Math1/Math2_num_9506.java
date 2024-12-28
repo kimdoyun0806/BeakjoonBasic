@@ -27,7 +27,8 @@ public class Math2_num_9506 {
                 for (int j = 0; j < al.size() - 1; j++)
                     System.out.print(al.get(j) + " + ");
                 System.out.println(al.get(al.size() - 1));
-            } 
+            }
+            // n이 완전수가 아니리면
             else {
                 System.out.println(n + " is NOT perfect.");
             }
