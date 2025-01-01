@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Bruteforce_num_1018 {
-    static String[] BW = {
+    public static String[] BW = {
             "BWBWBWBW",
             "WBWBWBWB",
             "BWBWBWBW",
@@ -16,7 +16,7 @@ public class Bruteforce_num_1018 {
             "WBWBWBWB"
     };
 
-    static String[] WB = {
+    public static String[] WB = {
             "WBWBWBWB",
             "BWBWBWBW",
             "WBWBWBWB",
@@ -27,10 +27,10 @@ public class Bruteforce_num_1018 {
             "BWBWBWBW"
     };
 
-    static String[] board;
+    public static String[] board;
 
     // 맨 왼쪽 위 칸이 검은색인 경우
-    static int cntBW(int x, int y) {
+    public static int cntBW(int x, int y) {
         int cnt = 0;
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
@@ -43,7 +43,7 @@ public class Bruteforce_num_1018 {
     }
 
     // 맨 왼쪽 위 칸이 흰색인 경우
-    static int cntWB(int x, int y) {
+    public static int cntWB(int x, int y) {
         int cnt = 0;
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
