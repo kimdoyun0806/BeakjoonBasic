@@ -19,8 +19,7 @@ public class BruteForce_num_19532 {
 
         for (int x = -999; x <= 999; x++) {
             for (int y = -999; y <= 999; y++) {
-                if ((a * x) + (b * y) == c)
-                    if ((d * x) + (e * y) == f)
+                if (((a * x) + (b * y) == c) && ((d * x) + (e * y) == f))
                         System.out.println(x + " " + y);
             }
         }
