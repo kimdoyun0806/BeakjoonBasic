@@ -12,10 +12,10 @@ public class Deque_num_4949 {
             // '('일 때 맨 앞에 '(' 넣기
             if (str.charAt(i) == '(')
                 dq.offerFirst("(");
-                // '['일 때 맨 앞에 '[' 넣기
+            // '['일 때 맨 앞에 '[' 넣기
             else if (str.charAt(i) == '[')
                 dq.offerFirst("[");
-                // ')'일 때
+            // ')'일 때
             else if (str.charAt(i) == ')') {
                 // 덱이 비어있거나, 짝이 맞지 않으면
                 if (dq.isEmpty() || !dq.peekFirst().equals("("))

@@ -5,11 +5,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
-// 덱1, 덱2 두개 생성 후 cnt=1부터 시작해서
-// 덱1을 덱2로 넣을 때 cnt와 정수가 일치하면 넣지말고 없앤 후 cnt++
-// 만약 덱2에 정수를 넣을 때 넣을 정수 값이 앞에 있던 정수보다 높으면 false
-// 모두 넣어지면 true
-
 public class Deque_num_12789 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
