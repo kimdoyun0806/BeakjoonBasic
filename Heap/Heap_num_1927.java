@@ -16,9 +16,9 @@ public class Heap_num_1927 {
 
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken());
-            // x = 0 일때
-            if (x == 0) {
+                int x = Integer.parseInt(st.nextToken());
+                // x = 0 일때
+                if (x == 0) {
                 // 큐가 비어있다면 0을 출력
                 if (pq.isEmpty())
                     sb.append(0).append("\n");
