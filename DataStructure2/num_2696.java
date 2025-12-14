@@ -43,6 +43,7 @@ public class num_2696 {
                     }
                 }
 
+
                 if (i % 2 == 0) {
                     if (cnt == 9 || i == M - 1)
                         sb.append(max.peek() + "\n");
